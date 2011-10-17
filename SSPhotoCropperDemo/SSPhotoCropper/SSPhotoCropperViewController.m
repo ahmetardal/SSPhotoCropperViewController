@@ -38,7 +38,7 @@
 @implementation SSPhotoCropperViewController
 
 @synthesize scrollView, photo, imageView, cropRectangleButton, infoButton, delegate,
-            minZoomScale, maxZoomScale, infoMessageTitle, infoMessageBody;
+            minZoomScale, maxZoomScale, infoMessageTitle, infoMessageBody, photoCropperTitle;
 
 - (id) initWithPhoto:(UIImage *)aPhoto
             delegate:(id<SSPhotoCropperDelegate>)aDelegate
@@ -69,6 +69,7 @@
     self.infoMessageTitle = @"In order to crop the photo";
     self.infoMessageBody = @"Use two of your fingers to zoom in and out the photo and drag the"
                            @" green window to crop any part of the photo you would like to use.";
+    self.photoCropperTitle = @"Crop Photo";
 
     return self;
 }
@@ -92,6 +93,7 @@
     [self.infoButton release];
     [self.infoMessageTitle release];
     [self.infoMessageBody release];
+    [self.photoCropperTitle release];
     [super dealloc];
 }
 
@@ -140,7 +142,7 @@
         [self.infoButton setHidden:YES];
     }
 
-    self.title = @"Crop Photo";
+    self.title = self.photoCropperTitle;
 
     //
     // photo cropper ui stuff

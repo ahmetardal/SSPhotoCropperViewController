@@ -51,6 +51,7 @@ typedef enum SSPhotoCropperUIMode_ {
     
     NSString *infoMessageTitle;
     NSString *infoMessageBody;
+    NSString *photoCropperTitle;
 }
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
@@ -63,6 +64,7 @@ typedef enum SSPhotoCropperUIMode_ {
 @property (nonatomic, assign) CGFloat maxZoomScale;
 @property (nonatomic, retain) NSString *infoMessageTitle;
 @property (nonatomic, retain) NSString *infoMessageBody;
+@property (nonatomic, retain) NSString *photoCropperTitle;
 
 - (id) initWithPhoto:(UIImage *)aPhoto
             delegate:(id<SSPhotoCropperDelegate>)aDelegate;
