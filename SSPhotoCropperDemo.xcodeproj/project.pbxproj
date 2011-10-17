@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59516FC7144BF5CA00A44D43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59516FC6144BF5CA00A44D43 /* UIKit.framework */; };
+		59516FC9144BF5CA00A44D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59516FC8144BF5CA00A44D43 /* Foundation.framework */; };
+		59516FCB144BF5CA00A44D43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59516FCA144BF5CA00A44D43 /* CoreGraphics.framework */; };
+		59516FD1144BF5CA00A44D43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59516FCF144BF5CA00A44D43 /* InfoPlist.strings */; };
+		59516FD4144BF5CA00A44D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59516FD3144BF5CA00A44D43 /* main.m */; };
+		59516FD7144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59516FD6144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.m */; };
+		59516FDA144BF5CA00A44D43 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516FD8144BF5CA00A44D43 /* MainWindow.xib */; };
+		59516FDD144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59516FDC144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.m */; };
+		59516FE0144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516FDE144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.xib */; };
+		59516FEB144BF6D900A44D43 /* SSPhotoCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59516FE9144BF6D900A44D43 /* SSPhotoCropperViewController.m */; };
+		59516FEC144BF6D900A44D43 /* SSPhotoCropperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516FEA144BF6D900A44D43 /* SSPhotoCropperViewController.xib */; };
+		59516FFC144BFA8700A44D43 /* photo_cropper_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FF6144BFA8700A44D43 /* photo_cropper_bg.png */; };
+		59516FFD144BFA8700A44D43 /* photo_cropper_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FF7144BFA8700A44D43 /* photo_cropper_bg@2x.png */; };
+		59516FFE144BFA8700A44D43 /* photo_cropper_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FF8144BFA8700A44D43 /* photo_cropper_rect.png */; };
+		59516FFF144BFA8700A44D43 /* photo_cropper_rect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FF9144BFA8700A44D43 /* photo_cropper_rect@2x.png */; };
+		59517000144BFA8700A44D43 /* photo_cropper_rect_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FFA144BFA8700A44D43 /* photo_cropper_rect_on.png */; };
+		59517001144BFA8700A44D43 /* photo_cropper_rect_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59516FFB144BFA8700A44D43 /* photo_cropper_rect_on@2x.png */; };
+		59517009144C0E8600A44D43 /* cute_cat_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517003144C0E8600A44D43 /* cute_cat_1.jpg */; };
+		5951700A144C0E8600A44D43 /* cute_cat_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517004144C0E8600A44D43 /* cute_cat_2.jpg */; };
+		5951700B144C0E8600A44D43 /* cute_cat_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517005144C0E8600A44D43 /* cute_cat_3.jpg */; };
+		5951700C144C0E8600A44D43 /* cute_dog_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517006144C0E8600A44D43 /* cute_dog_1.jpg */; };
+		5951700D144C0E8600A44D43 /* cute_dog_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517007144C0E8600A44D43 /* cute_dog_2.jpg */; };
+		5951700E144C0E8600A44D43 /* cute_dog_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59517008144C0E8600A44D43 /* cute_dog_3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59516FC2144BF5CA00A44D43 /* SSPhotoCropperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPhotoCropperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59516FC6144BF5CA00A44D43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59516FC8144BF5CA00A44D43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59516FCA144BF5CA00A44D43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59516FCE144BF5CA00A44D43 /* SSPhotoCropperDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSPhotoCropperDemo-Info.plist"; sourceTree = "<group>"; };
+		59516FD0144BF5CA00A44D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59516FD2144BF5CA00A44D43 /* SSPhotoCropperDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSPhotoCropperDemo-Prefix.pch"; sourceTree = "<group>"; };
+		59516FD3144BF5CA00A44D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59516FD5144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoCropperDemoAppDelegate.h; sourceTree = "<group>"; };
+		59516FD6144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoCropperDemoAppDelegate.m; sourceTree = "<group>"; };
+		59516FD9144BF5CA00A44D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		59516FDB144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoCropperDemoViewController.h; sourceTree = "<group>"; };
+		59516FDC144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoCropperDemoViewController.m; sourceTree = "<group>"; };
+		59516FDF144BF5CA00A44D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSPhotoCropperDemoViewController.xib; sourceTree = "<group>"; };
+		59516FE8144BF6D900A44D43 /* SSPhotoCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhotoCropperViewController.h; sourceTree = "<group>"; };
+		59516FE9144BF6D900A44D43 /* SSPhotoCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhotoCropperViewController.m; sourceTree = "<group>"; };
+		59516FEA144BF6D900A44D43 /* SSPhotoCropperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSPhotoCropperViewController.xib; sourceTree = "<group>"; };
+		59516FF6144BFA8700A44D43 /* photo_cropper_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_cropper_bg.png; sourceTree = "<group>"; };
+		59516FF7144BFA8700A44D43 /* photo_cropper_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_cropper_bg@2x.png"; sourceTree = "<group>"; };
+		59516FF8144BFA8700A44D43 /* photo_cropper_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_cropper_rect.png; sourceTree = "<group>"; };
+		59516FF9144BFA8700A44D43 /* photo_cropper_rect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_cropper_rect@2x.png"; sourceTree = "<group>"; };
+		59516FFA144BFA8700A44D43 /* photo_cropper_rect_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_cropper_rect_on.png; sourceTree = "<group>"; };
+		59516FFB144BFA8700A44D43 /* photo_cropper_rect_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_cropper_rect_on@2x.png"; sourceTree = "<group>"; };
+		59517003144C0E8600A44D43 /* cute_cat_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_cat_1.jpg; sourceTree = "<group>"; };
+		59517004144C0E8600A44D43 /* cute_cat_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_cat_2.jpg; sourceTree = "<group>"; };
+		59517005144C0E8600A44D43 /* cute_cat_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_cat_3.jpg; sourceTree = "<group>"; };
+		59517006144C0E8600A44D43 /* cute_dog_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_dog_1.jpg; sourceTree = "<group>"; };
+		59517007144C0E8600A44D43 /* cute_dog_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_dog_2.jpg; sourceTree = "<group>"; };
+		59517008144C0E8600A44D43 /* cute_dog_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_dog_3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59516FBF144BF5C900A44D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59516FC7144BF5CA00A44D43 /* UIKit.framework in Frameworks */,
+				59516FC9144BF5CA00A44D43 /* Foundation.framework in Frameworks */,
+				59516FCB144BF5CA00A44D43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59516FB7144BF5C900A44D43 = {
+			isa = PBXGroup;
+			children = (
+				59516FCC144BF5CA00A44D43 /* SSPhotoCropperDemo */,
+				59516FC5144BF5CA00A44D43 /* Frameworks */,
+				59516FC3144BF5CA00A44D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59516FC3144BF5CA00A44D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59516FC2144BF5CA00A44D43 /* SSPhotoCropperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59516FC5144BF5CA00A44D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59516FC6144BF5CA00A44D43 /* UIKit.framework */,
+				59516FC8144BF5CA00A44D43 /* Foundation.framework */,
+				59516FCA144BF5CA00A44D43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59516FCC144BF5CA00A44D43 /* SSPhotoCropperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				59516FE7144BF6A100A44D43 /* SSPhotoCropper */,
+				59516FD5144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.h */,
+				59516FD6144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.m */,
+				59516FDB144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.h */,
+				59516FDC144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.m */,
+				59516FE6144BF62600A44D43 /* Resources */,
+				59516FCD144BF5CA00A44D43 /* Supporting Files */,
+			);
+			path = SSPhotoCropperDemo;
+			sourceTree = "<group>";
+		};
+		59516FCD144BF5CA00A44D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59516FCE144BF5CA00A44D43 /* SSPhotoCropperDemo-Info.plist */,
+				59516FCF144BF5CA00A44D43 /* InfoPlist.strings */,
+				59516FD2144BF5CA00A44D43 /* SSPhotoCropperDemo-Prefix.pch */,
+				59516FD3144BF5CA00A44D43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59516FE6144BF62600A44D43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59517002144C0E8600A44D43 /* Photos */,
+				59516FD8144BF5CA00A44D43 /* MainWindow.xib */,
+				59516FDE144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		59516FE7144BF6A100A44D43 /* SSPhotoCropper */ = {
+			isa = PBXGroup;
+			children = (
+				59516FF5144BFA8700A44D43 /* Graphics */,
+				59516FE8144BF6D900A44D43 /* SSPhotoCropperViewController.h */,
+				59516FE9144BF6D900A44D43 /* SSPhotoCropperViewController.m */,
+				59516FEA144BF6D900A44D43 /* SSPhotoCropperViewController.xib */,
+			);
+			path = SSPhotoCropper;
+			sourceTree = "<group>";
+		};
+		59516FF5144BFA8700A44D43 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				59516FF6144BFA8700A44D43 /* photo_cropper_bg.png */,
+				59516FF7144BFA8700A44D43 /* photo_cropper_bg@2x.png */,
+				59516FF8144BFA8700A44D43 /* photo_cropper_rect.png */,
+				59516FF9144BFA8700A44D43 /* photo_cropper_rect@2x.png */,
+				59516FFA144BFA8700A44D43 /* photo_cropper_rect_on.png */,
+				59516FFB144BFA8700A44D43 /* photo_cropper_rect_on@2x.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		59517002144C0E8600A44D43 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				59517003144C0E8600A44D43 /* cute_cat_1.jpg */,
+				59517004144C0E8600A44D43 /* cute_cat_2.jpg */,
+				59517005144C0E8600A44D43 /* cute_cat_3.jpg */,
+				59517006144C0E8600A44D43 /* cute_dog_1.jpg */,
+				59517007144C0E8600A44D43 /* cute_dog_2.jpg */,
+				59517008144C0E8600A44D43 /* cute_dog_3.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59516FC1144BF5C900A44D43 /* SSPhotoCropperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59516FE3144BF5CA00A44D43 /* Build configuration list for PBXNativeTarget "SSPhotoCropperDemo" */;
+			buildPhases = (
+				59516FBE144BF5C900A44D43 /* Sources */,
+				59516FBF144BF5C900A44D43 /* Frameworks */,
+				59516FC0144BF5C900A44D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSPhotoCropperDemo;
+			productName = SSPhotoCropperDemo;
+			productReference = 59516FC2144BF5CA00A44D43 /* SSPhotoCropperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59516FB9144BF5C900A44D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SpinningSphere Labs";
+			};
+			buildConfigurationList = 59516FBC144BF5C900A44D43 /* Build configuration list for PBXProject "SSPhotoCropperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59516FB7144BF5C900A44D43;
+			productRefGroup = 59516FC3144BF5CA00A44D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59516FC1144BF5C900A44D43 /* SSPhotoCropperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59516FC0144BF5C900A44D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59516FD1144BF5CA00A44D43 /* InfoPlist.strings in Resources */,
+				59516FDA144BF5CA00A44D43 /* MainWindow.xib in Resources */,
+				59516FE0144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.xib in Resources */,
+				59516FEC144BF6D900A44D43 /* SSPhotoCropperViewController.xib in Resources */,
+				59516FFC144BFA8700A44D43 /* photo_cropper_bg.png in Resources */,
+				59516FFD144BFA8700A44D43 /* photo_cropper_bg@2x.png in Resources */,
+				59516FFE144BFA8700A44D43 /* photo_cropper_rect.png in Resources */,
+				59516FFF144BFA8700A44D43 /* photo_cropper_rect@2x.png in Resources */,
+				59517000144BFA8700A44D43 /* photo_cropper_rect_on.png in Resources */,
+				59517001144BFA8700A44D43 /* photo_cropper_rect_on@2x.png in Resources */,
+				59517009144C0E8600A44D43 /* cute_cat_1.jpg in Resources */,
+				5951700A144C0E8600A44D43 /* cute_cat_2.jpg in Resources */,
+				5951700B144C0E8600A44D43 /* cute_cat_3.jpg in Resources */,
+				5951700C144C0E8600A44D43 /* cute_dog_1.jpg in Resources */,
+				5951700D144C0E8600A44D43 /* cute_dog_2.jpg in Resources */,
+				5951700E144C0E8600A44D43 /* cute_dog_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59516FBE144BF5C900A44D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59516FD4144BF5CA00A44D43 /* main.m in Sources */,
+				59516FD7144BF5CA00A44D43 /* SSPhotoCropperDemoAppDelegate.m in Sources */,
+				59516FDD144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.m in Sources */,
+				59516FEB144BF6D900A44D43 /* SSPhotoCropperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59516FCF144BF5CA00A44D43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59516FD0144BF5CA00A44D43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59516FD8144BF5CA00A44D43 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59516FD9144BF5CA00A44D43 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		59516FDE144BF5CA00A44D43 /* SSPhotoCropperDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59516FDF144BF5CA00A44D43 /* en */,
+			);
+			name = SSPhotoCropperDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59516FE1144BF5CA00A44D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59516FE2144BF5CA00A44D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		59516FE4144BF5CA00A44D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPhotoCropperDemo/SSPhotoCropperDemo-Prefix.pch";
+				INFOPLIST_FILE = "SSPhotoCropperDemo/SSPhotoCropperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59516FE5144BF5CA00A44D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPhotoCropperDemo/SSPhotoCropperDemo-Prefix.pch";
+				INFOPLIST_FILE = "SSPhotoCropperDemo/SSPhotoCropperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59516FBC144BF5C900A44D43 /* Build configuration list for PBXProject "SSPhotoCropperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59516FE1144BF5CA00A44D43 /* Debug */,
+				59516FE2144BF5CA00A44D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59516FE3144BF5CA00A44D43 /* Build configuration list for PBXNativeTarget "SSPhotoCropperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59516FE4144BF5CA00A44D43 /* Debug */,
+				59516FE5144BF5CA00A44D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59516FB9144BF5C900A44D43 /* Project object */;
+}
